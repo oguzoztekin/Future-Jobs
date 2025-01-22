@@ -1,0 +1,1166 @@
+{
+    "id": "FRA",
+    "type": "economy",
+    "topSection": {
+        "title": "France",
+        "scoreCardTypeLabel": "Economy Profile",
+        "globalInfo": {
+            "value": 47.24,
+            "label": "Working Age Population (Millions)",
+            "format": "float"
+        }
+    },
+    "sections": [
+        {
+            "id": "jobs-skills-outlook",
+            "title": "Jobs and Skills outlook",
+            "subSections": [
+                {
+                    "id": "1. Jobs and Skills outlook",
+                    "title": "Labour-market churn",
+                    "subTitle": "",
+                    "visualModelType": "summary",
+                    "visualModelSubType": "summary-simple",
+                    "entries": [
+                        {
+                            "primaryPercentage": 19,
+                            "secondaryLabel": "Global",
+                            "secondaryPercentage": 22,
+                            "title": "Labour-market churn",
+                            "subtitle": "Five-year structural labour-force churn"
+                        },
+                        {
+                            "primaryPercentage": 33,
+                            "secondaryLabel": "Global",
+                            "secondaryPercentage": 39,
+                            "title": "Skill disruption",
+                            "subtitle": "Shares of core skills which will change"
+                        },
+                        {
+                            "primaryPercentage": 93,
+                            "secondaryLabel": "Global",
+                            "secondaryPercentage": 83,
+                            "title": "Organizations with DEI priorities",
+                            "subtitle": "Share of organizations with DEI priorities"
+                        },
+                        {
+                            "primaryPercentage": 95,
+                            "secondaryLabel": "Global",
+                            "secondaryPercentage": 88,
+                            "title": "AI exposure",
+                            "subtitle": "Share of organizations running AI programmes"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "macrotrends",
+            "title": "Trend outlook",
+            "subSections": [
+                {
+                    "id": "2. Macrotrends",
+                    "title": "Macrotrends driving business transformation",
+                    "subTitle": "Share of organizations surveyed that identified this trend as likely to drive transformation in their organization",
+                    "visualModelType": "barchart",
+                    "visualModelSubType": "barchart-two-rows",
+                    "domain": [
+                        0,
+                        100
+                    ],
+                    "legend": {
+                        "fields": [
+                            {
+                                "fieldName": "economy",
+                                "label": "Economy",
+                                "colors": [
+                                    "#A0CEE6"
+                                ],
+                                "symbol": "square"
+                            },
+                            {
+                                "fieldName": "global",
+                                "label": "Global",
+                                "colors": [
+                                    "#246194"
+                                ],
+                                "symbol": "square"
+                            }
+                        ]
+                    },
+                    "entries": [
+                        {
+                            "label": "Broadening digital access",
+                            "primaryValue": 57,
+                            "category": "Economy",
+                            "secondaryValue": 60
+                        },
+                        {
+                            "label": "Increased efforts and investments to reduce carbon emissions",
+                            "primaryValue": 55,
+                            "category": "Economy",
+                            "secondaryValue": 47
+                        },
+                        {
+                            "label": "Rising cost of living, higher prices or inflation",
+                            "primaryValue": 54,
+                            "category": "Economy",
+                            "secondaryValue": 50
+                        },
+                        {
+                            "label": "Ageing and declining working-age populations",
+                            "primaryValue": 49,
+                            "category": "Economy",
+                            "secondaryValue": 40
+                        },
+                        {
+                            "label": "Increased efforts and investments to adapt to climate change",
+                            "primaryValue": 49,
+                            "category": "Economy",
+                            "secondaryValue": 41
+                        },
+                        {
+                            "label": "Increased geopolitical division and conflicts",
+                            "primaryValue": 47,
+                            "category": "Economy",
+                            "secondaryValue": 34
+                        },
+                        {
+                            "label": "Increased focus on labour and social issues",
+                            "primaryValue": 47,
+                            "category": "Economy",
+                            "secondaryValue": 46
+                        },
+                        {
+                            "label": "Slower economic growth",
+                            "primaryValue": 40,
+                            "category": "Economy",
+                            "secondaryValue": 42
+                        },
+                        {
+                            "label": "Increased restrictions to global trade and investment",
+                            "primaryValue": 26,
+                            "category": "Economy",
+                            "secondaryValue": 23
+                        },
+                        {
+                            "label": "Stricter anti-trust and competition regulations",
+                            "primaryValue": 24,
+                            "category": "Economy",
+                            "secondaryValue": 17
+                        },
+                        {
+                            "label": "Growing working-age populations",
+                            "primaryValue": 24,
+                            "category": "Economy",
+                            "secondaryValue": 24
+                        },
+                        {
+                            "label": "Increased government subsidies and industrial policy",
+                            "primaryValue": 22,
+                            "category": "Economy",
+                            "secondaryValue": 21
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "contextual-indicators",
+            "title": "Contextual indicators",
+            "subSections": [
+                {
+                    "id": "3. Contextual Indicators",
+                    "title": "",
+                    "subTitle": "",
+                    "visualModelType": "barchart",
+                    "visualModelSubType": "barchart-with-two-defined-lines",
+                    "domain": [
+                        0,
+                        100
+                    ],
+                    "legend": {
+                        "fields": [
+                            {
+                                "fieldName": "regionalAverage",
+                                "label": "Regional average",
+                                "colors": [
+                                    "#9A75AA"
+                                ],
+                                "symbol": "bar"
+                            },
+                            {
+                                "fieldName": "incomeGroupAverage",
+                                "label": "Income Group average",
+                                "colors": [
+                                    "#4B9C95"
+                                ],
+                                "symbol": "bar"
+                            }
+                        ]
+                    },
+                    "entries": [
+                        {
+                            "isPercentage": true,
+                           "domain": [
+                                0,
+                                100
+                            ],
+                            "label": "Labour force participation",
+                            "value": 59,
+                            "value_normalized": 22,
+                            "year": 2023,
+                            "value2": 33,
+                            "value1": 28
+                        },
+                        {
+                            "isPercentage": true,
+                           "domain": [
+                                0,
+                                100
+                            ],
+                            "label": "Vulnerable employment",
+                            "value": 8,
+                            "value_normalized": 8,
+                            "year": 2022,
+                            "value2": 10,
+                            "value1": 13
+                        },
+                        {
+                            "isPercentage": true,
+                           "domain": [
+                                0,
+                                100
+                            ],
+                            "label": "Share of youth not in employment, education, or training (NEET)",
+                            "value": 12,
+                            "value_normalized": 29,
+                            "year": 2023,
+                            "value2": 23,
+                            "value1": 28
+                        },
+                        {
+                            "isPercentage": true,
+                           "domain": [
+                                0,
+                                100
+                            ],
+                            "label": "Unemployment rate",
+                            "value": 6,
+                            "value_normalized": 21,
+                            "year": 2023,
+                            "value2": 12,
+                            "value1": 16
+                        },
+                        {
+                            "isPercentage": true,
+                           "domain": [
+                                0,
+                                100
+                            ],
+                            "label": "Unemployment rate among workers with basic edu.",
+                            "value": 11,
+                            "value_normalized": 30,
+                            "year": 2023,
+                            "value2": 18,
+                            "value1": 23
+                        },
+                        {
+                            "isPercentage": true,
+                           "domain": [
+                                0,
+                                100
+                            ],
+                            "label": "Unemployment rate among workers with advanced edu.",
+                            "value": 5,
+                            "value_normalized": 18,
+                            "year": 2023,
+                            "value2": 10,
+                            "value1": 13
+                        },
+                        {
+                            "isPercentage": true,
+                           "domain": [
+                                0,
+                                100
+                            ],
+                            "label": "Secondary Education Attainment",
+                            "value": 78,
+                            "value_normalized": 71,
+                            "year": 2023,
+                            "value2": 75,
+                            "value1": 64
+                        },
+                        {
+                            "isPercentage": true,
+                           "domain": [
+                                0,
+                                100
+                            ],
+                            "label": "Tertiary Education Attainment",
+                            "value": 37,
+                            "value_normalized": 48,
+                            "year": 2023,
+                            "value2": 53,
+                            "value1": 38
+                        },
+                        {
+                            "isPercentage": false,
+                           "domain": [
+                                0,
+                                100
+                            ],
+                            "label": "Ease of finding skilled employees in local labour market",
+                            "value": 4,
+                            "value_normalized": 56,
+                            "year": 2024,
+                            "value2": 55,
+                            "value1": 45
+                        },
+                        {
+                            "isPercentage": false,
+                           "domain": [
+                                0,
+                                100
+                            ],
+                            "label": "Fill vacancies by hiring foreign labour",
+                            "value": 4,
+                            "value_normalized": 60,
+                            "year": 2024,
+                            "value2": 59,
+                            "value1": 47
+                        },
+                        {
+                            "isPercentage": false,
+                           "domain": [
+                                0,
+                                100
+                            ],
+                            "label": "Country investment in mid-career training",
+                            "value": 4,
+                            "value_normalized": 60,
+                            "year": 2022,
+                            "value2": 55,
+                            "value1": 46
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "jobs-outlook",
+            "title": "Jobs outlook",
+            "subSections": [
+                {
+                    "id": "4. Jobs Outlook",
+                    "title": "Key roles for business transformation",
+                    "subTitle": "Roles most selected by organizations surveyed, ordered by net role growth, and their net growth and structural churn (percent)",
+                    "visualModelType": "barchart",
+                    "visualModelSubType": "barchart-with-table-range",
+                    "domain": [
+                        -100,
+                        100
+                    ],
+                    "legend": {
+                        "title": "Net growth",
+                        "fields": [
+                            {
+                                "fieldName": "positive",
+                                "label": "Job Growth",
+                                "colors": [
+                                    "#A0CEE6"
+                                ],
+                                "symbol": "square"
+                            },
+                            {
+                                "fieldName": "negative",
+                                "label": "Job displacement",
+                                "colors": [
+                                    "#AF94BB"
+                                ],
+                                "symbol": "square"
+                            },
+                            {
+                                "fieldName": "netEffect",
+                                "label": "Net Growth",
+                                "colors": [
+                                    "#000000"
+                                ],
+                                "symbol": "bar"
+                            },
+                            {
+                                "fieldName": "global",
+                                "label": "Global net growth",
+                                "colors": [
+                                    "#000000"
+                                ],
+                                "symbol": "triangle"
+                            }
+                        ]
+                    },
+                    "columnTitles": [
+                        {
+                            "labels": "",
+                            "charts": [
+                                "Net growth"
+                            ],
+                            "values": [
+                                "1.",
+                                "2.",
+                                "3."
+                            ]
+                        }
+                    ],
+                    "entries": [
+                        {
+                            "label": "AI and Machine Learning Specialists",
+                            "positive": 72,
+                            "negative": 0,
+                            "netEffect": 72,
+                            "globalNetEffect": 82,
+                            "churn": 72
+                        },
+                        {
+                            "label": "Data Analysts and Scientists",
+                            "positive": 26,
+                            "negative": 0,
+                            "netEffect": 26,
+                            "globalNetEffect": 41,
+                            "churn": 27
+                        },
+                        {
+                            "label": "Business Development Professionals",
+                            "positive": 14,
+                            "negative": 0,
+                            "netEffect": 14,
+                            "globalNetEffect": 19,
+                            "churn": 14
+                        },
+                        {
+                            "label": "Managing Directors and Chief Executives",
+                            "positive": 2,
+                            "negative": -2,
+                            "netEffect": 0,
+                            "globalNetEffect": 5,
+                            "churn": 4
+                        },
+                        {
+                            "label": "General and Operations Managers",
+                            "positive": 3,
+                            "negative": -8,
+                            "netEffect": -4,
+                            "globalNetEffect": 4,
+                            "churn": 11
+                        },
+                        {
+                            "label": "Assembly and Factory Workers",
+                            "positive": 5,
+                            "negative": -14,
+                            "netEffect": -8,
+                            "globalNetEffect": 0,
+                            "churn": 19
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "skill-outlook",
+            "title": "Skill outlook",
+            "subSections": [
+                {
+                    "id": "5. Skill Outlook",
+                    "title": "Skills of increasing use by 2030",
+                    "subTitle": "Skills of the most increase in use by 2030",
+                    "visualModelType": "barchart",
+                    "visualModelSubType": "barchart-with-label-and-global-two-columns",
+                    "domain": [
+                        0,
+                        100
+                    ],
+                    "legend": {
+                        "title": "",
+                        "fields": [
+                            {
+                                "fieldName": "value",
+                                "label": "Economy",
+                                "colors": [
+                                    "#A0CEE6"
+                                ],
+                                "symbol": "square"
+                            },
+                            {
+                                "fieldName": "global",
+                                "label": "Global",
+                                "colors": [
+                                    "#224774"
+                                ],
+                                "symbol": "triangle"
+                            }
+                        ]
+                    },
+                    "entries": [
+                        {
+                            "label": "Curiosity and lifelong learning",
+                            "value": 53,
+                            "global": 50,
+                            "type": 0
+                        },
+                        {
+                            "label": "Resilience, flexibility and agility",
+                            "value": 73,
+                            "global": 67,
+                            "type": 0
+                        },
+                        {
+                            "label": "Leadership and social influence",
+                            "value": 56,
+                            "global": 61,
+                            "type": 0
+                        },
+                        {
+                            "label": "Analytical thinking",
+                            "value": 72,
+                            "global": 69,
+                            "type": 0
+                        },
+                        {
+                            "label": "Motivation and self-awareness",
+                            "value": 59,
+                            "global": 52,
+                            "type": 0
+                        },
+                        {
+                            "label": "AI and big data",
+                            "value": 92,
+                            "global": 88,
+                            "type": 1
+                        },
+                        {
+                            "label": "Networks and cybersecurity",
+                            "value": 71,
+                            "global": 72,
+                            "type": 1
+                        },
+                        {
+                            "label": "Curiosity and lifelong learning",
+                            "value": 70,
+                            "global": 65,
+                            "type": 1
+                        },
+                        {
+                            "label": "Technological literacy",
+                            "value": 68,
+                            "global": 71,
+                            "type": 1
+                        },
+                        {
+                            "label": "Environmental stewardship",
+                            "value": 65,
+                            "global": 58,
+                            "type": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "technology",
+            "title": "Technology trends",
+            "subSections": [
+                {
+                    "id": "99. Technology",
+                    "title": "Technology trends driving business transformation",
+                    "subTitle": "Share of organizations surveyed that identify the technology trend as likely to drive business transformation",
+                    "visualModelType": "barchart",
+                    "visualModelSubType": "barchart-two-rows",
+                    "domain": [
+                        0,
+                        100
+                    ],
+                    "legend": {
+                        "fields": [
+                            {
+                                "fieldName": "economy",
+                                "label": "Economy",
+                                "colors": [
+                                    "#A0CEE6"
+                                ],
+                                "symbol": "square"
+                            },
+                            {
+                                "fieldName": "global",
+                                "label": "Global",
+                                "colors": [
+                                    "#246194"
+                                ],
+                                "symbol": "square"
+                            }
+                        ]
+                    },
+                    "entries": [
+                        {
+                            "label": "AI and information processing technologies (big data, VR, AR etc.)",
+                            "primaryValue": 92,
+                            "category": "Economy",
+                            "secondaryValue": 86
+                        },
+                        {
+                            "label": "Robots and autonomous systems",
+                            "primaryValue": 63,
+                            "category": "Economy",
+                            "secondaryValue": 58
+                        },
+                        {
+                            "label": "Energy generation, storage and distribution",
+                            "primaryValue": 42,
+                            "category": "Economy",
+                            "secondaryValue": 41
+                        },
+                        {
+                            "label": "New materials and composites",
+                            "primaryValue": 34,
+                            "category": "Economy",
+                            "secondaryValue": 30
+                        },
+                        {
+                            "label": "Semiconductors and computing technologies",
+                            "primaryValue": 31,
+                            "category": "Economy",
+                            "secondaryValue": 20
+                        },
+                        {
+                            "label": "Sensing, laser and optical technologies",
+                            "primaryValue": 20,
+                            "category": "Economy",
+                            "secondaryValue": 18
+                        },
+                        {
+                            "label": "Quantum and encryption",
+                            "primaryValue": 19,
+                            "category": "Economy",
+                            "secondaryValue": 12
+                        },
+                        {
+                            "label": "Biotechnology and gene technologies",
+                            "primaryValue": 17,
+                            "category": "Economy",
+                            "secondaryValue": 11
+                        },
+                        {
+                            "label": "Satellites and space technologies",
+                            "primaryValue": 11,
+                            "category": "Economy",
+                            "secondaryValue": 9
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "workforce",
+            "title": "Upskilling and reskilling outlook",
+            "subSections": [
+                {
+                    "id": "6. Workforce ",
+                    "title": "If the workforce were 100 people...",
+                    "subTitle": "If the workforce were 100 people...",
+                    "visualModelType": "summary",
+                    "visualModelSubType": "summary-categorized-with-dot-matrix",
+                    "entries": [
+                        {
+                            "primaryPercentage": 38,
+                            "secondaryLabel": "Global",
+                            "secondaryPercentage": 41,
+                            "subtitle": "Would not need training by 2030",
+                            "dotsNumber": 38
+                        },
+                        {
+                            "primaryPercentage": 31,
+                            "secondaryLabel": "Global",
+                            "secondaryPercentage": 29,
+                            "subtitle": "Would be upskilled in their current role",
+                            "dotsNumber": 31
+                        },
+                        {
+                            "primaryPercentage": 20,
+                            "secondaryLabel": "Global",
+                            "secondaryPercentage": 19,
+                            "subtitle": "Would be upskilled and redeployed",
+                            "dotsNumber": 20
+                        },
+                        {
+                            "primaryPercentage": 11,
+                            "secondaryLabel": "Global",
+                            "secondaryPercentage": 11,
+                            "subtitle": "Would be unlikely to upskill",
+                            "dotsNumber": 11
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "human-machine-frontier",
+            "title": "Human-machine frontier ",
+            "subSections": [
+                {
+                    "id": "7. Human-machine",
+                    "title": "Human-machine frontier",
+                    "subTitle": "% of tasks completed by predominantly people, predominantly technology, or a combination of both",
+                    "visualModelType": "barchart",
+                    "visualModelSubType": "barchart-stacked",
+                    "legend": {
+                        "fields": [
+                            {
+                                "fieldName": "human",
+                                "label": "Human",
+                                "colors": [
+                                    "#A0CEE6"
+                                ],
+                                "symbol": "square"
+                            },
+                            {
+                                "fieldName": "globalHuman",
+                                "label": "Global",
+                                "colors": [
+                                    "#A0CEE688"
+                                ],
+                                "symbol": "square"
+                            },
+                            {
+                                "fieldName": "combination",
+                                "label": "Combination",
+                                "colors": [
+                                    "#0080C6"
+                                ],
+                                "symbol": "square"
+                            },
+                            {
+                                "fieldName": "globalCombination",
+                                "label": "Global",
+                                "colors": [
+                                    "#0080C688"
+                                ],
+                                "symbol": "square"
+                            },
+                            {
+                                "fieldName": "machine",
+                                "label": "Technology",
+                                "colors": [
+                                    "#224774"
+                                ],
+                                "symbol": "square"
+                            },
+                            {
+                                "fieldName": "globalMachine",
+                                "label": "Global",
+                                "colors": [
+                                    "#22477488"
+                                ],
+                                "symbol": "square"
+                            }
+                        ]
+                    },
+                    "entries": [
+                        {
+                            "title": "All tasks",
+                            "data": [
+                                {
+                                    "title": "Now",
+                                    "human": 46,
+                                    "globalHuman": 48,
+                                    "combination": 32,
+                                    "globalCombination": 30,
+                                    "machine": 22,
+                                    "globalMachine": 22
+                                },
+                                {
+                                    "title": "2030",
+                                    "human": 32,
+                                    "globalHuman": 33,
+                                    "combination": 33,
+                                    "globalCombination": 33,
+                                    "machine": 35,
+                                    "globalMachine": 34
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "public-policy",
+            "title": "Public policy",
+            "subSections": [
+                {
+                    "id": "8. Public policy",
+                    "title": "Public policies to improve talent availability",
+                    "subTitle": "Share of respondents who agree that the particular public policy has the greatest potential to increase the talent availability",
+                    "visualModelType": "barchart",
+                    "visualModelSubType": "barchart-with-label-and-global",
+                    "domain": [
+                        0,
+                        100
+                    ],
+                    "legend": {
+                        "title": "",
+                        "fields": [
+                            {
+                                "fieldName": "value",
+                                "label": "Economy",
+                                "colors": [
+                                    "#A0CEE6"
+                                ],
+                                "symbol": "square"
+                            },
+                            {
+                                "fieldName": "global",
+                                "label": "Global",
+                                "colors": [
+                                    "#224774"
+                                ],
+                                "symbol": "triangle"
+                            }
+                        ]
+                    },
+                    "columnTitles": [
+                        "Economy",
+                        "Global"
+                    ],
+                    "entries": [
+                        {
+                            "global": 52,
+                            "label": "Provision of reskilling and upskilling",
+                            "value": 54
+                        },
+                        {
+                            "global": 55,
+                            "label": "Funding for reskilling and upskilling",
+                            "value": 52
+                        },
+                        {
+                            "global": 47,
+                            "label": "Improvements to public education systems",
+                            "value": 52
+                        },
+                        {
+                            "global": 36,
+                            "label": "Changes to labour laws related to remote work",
+                            "value": 41
+                        },
+                        {
+                            "global": 44,
+                            "label": "Flexibility on hiring and firing practices",
+                            "value": 38
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "transformation-barriers",
+            "title": "Key barriers for business transformation",
+            "subSections": [
+                {
+                    "id": "9. Transformation barriers",
+                    "title": "Transformation barriers",
+                    "subTitle": "Share of organisations surveyed expecting the barriers will hinder their organisation transformation",
+                    "visualModelType": "barchart",
+                    "visualModelSubType": "barchart-with-label-and-global",
+                    "domain": [
+                        0,
+                        100
+                    ],
+                    "legend": {
+                        "title": "",
+                        "fields": [
+                            {
+                                "fieldName": "value",
+                                "label": "Economy",
+                                "colors": [
+                                    "#A0CEE6"
+                                ],
+                                "symbol": "square"
+                            },
+                            {
+                                "fieldName": "global",
+                                "label": "Global",
+                                "colors": [
+                                    "#224774"
+                                ],
+                                "symbol": "triangle"
+                            }
+                        ]
+                    },
+                    "columnTitles": [
+                        "Economy",
+                        "Global"
+                    ],
+                    "entries": [
+                        {
+                            "label": "Skills gaps in the labour market",
+                            "value": 55,
+                            "global": 63
+                        },
+                        {
+                            "label": "Organization culture and resistance to change",
+                            "value": 43,
+                            "global": 46
+                        },
+                        {
+                            "label": "Inability to attract talent to the industry",
+                            "value": 41,
+                            "global": 37
+                        },
+                        {
+                            "label": "Outdated or inflexible regulatory framework",
+                            "value": 36,
+                            "global": 39
+                        },
+                        {
+                            "label": "Lack of adequate data and technical infrastructure",
+                            "value": 36,
+                            "global": 32
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "wage-trend",
+            "title": "Wage outlook",
+            "subSections": [
+                {
+                    "id": "10. Wage trend",
+                    "title": "Wage trends",
+                    "subTitle": "Share of organizations projecting the share of wages and other forms of workers\u2019 compensation as percentage of the company\u2019s total revenues",
+                    "visualModelType": "barchart",
+                    "visualModelSubType": "barchart-stacked",
+                    "legend": {
+                        "fields": [
+                            {
+                                "fieldName": "growing",
+                                "label": "Growing",
+                                "colors": [
+                                    "#A0CEE6"
+                                ],
+                                "symbol": "square"
+                            },
+                            {
+                                "fieldName": "globalGrowing",
+                                "label": "Global",
+                                "colors": [
+                                    "#A0CEE688"
+                                ],
+                                "symbol": "square"
+                            },
+                            {
+                                "fieldName": "similar",
+                                "label": "Similar",
+                                "colors": [
+                                    "#75C9C2"
+                                ],
+                                "symbol": "square"
+                            },
+                            {
+                                "fieldName": "globalSimilar",
+                                "label": "Global",
+                                "colors": [
+                                    "#75C9C288"
+                                ],
+                                "symbol": "square"
+                            },
+                            {
+                                "fieldName": "declining",
+                                "label": "Declining",
+                                "colors": [
+                                    "#AF94BB"
+                                ],
+                                "symbol": "square"
+                            },
+                            {
+                                "fieldName": "globalDeclining",
+                                "label": "Global",
+                                "colors": [
+                                    "#AF94BB88"
+                                ],
+                                "symbol": "square"
+                            }
+                        ]
+                    },
+                    "entries": [
+                        {
+                            "data": [
+                                {
+                                    "title": "",
+                                    "similar": 44,
+                                    "growing": 49,
+                                    "declining": 7,
+                                    "globalGrowing": 51.8,
+                                    "globalDeclining": 7.6,
+                                    "globalSimilar": 40.6
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "talent-trend",
+            "title": "Talent availability outlook",
+            "subSections": [
+                {
+                    "id": "11. Talent Trend",
+                    "title": "Talent trend",
+                    "subTitle": "Share of respondents who expect their talent availability to improve or worsen in five years",
+                    "visualModelType": "barchart",
+                    "visualModelSubType": "barchart-two-globals",
+                    "domain": [
+                        -100,
+                        100
+                    ],
+                    "legend": {
+                        "fields": [
+                            {
+                                "fieldName": "positive",
+                                "label": "Improving",
+                                "colors": [
+                                    "#A0CEE6"
+                                ],
+                                "symbol": "square"
+                            },
+                            {
+                                "fieldName": "globalPositive",
+                                "label": "Global average",
+                                "colors": [
+                                    "#A0CEE6"
+                                ],
+                                "symbol": "triangle"
+                            },
+                            {
+                                "fieldName": "negative",
+                                "label": "Worsening",
+                                "colors": [
+                                    "#AF94BB"
+                                ],
+                                "symbol": "square"
+                            },
+                            {
+                                "fieldName": "globalNegative",
+                                "label": "Global average",
+                                "colors": [
+                                    "#AF94BB"
+                                ],
+                                "symbol": "triangle"
+                            }
+                        ]
+                    },
+                    "entries": [
+                        {
+                            "label": "Talent availability when hiring",
+                            "positive": 31,
+                            "negative": 50,
+                            "neutral": 19,
+                            "globalPositive": 29,
+                            "globalNegative": -42,
+                            "globalNeutral": 29
+                        },
+                        {
+                            "label": "Talent development of existing workforce",
+                            "positive": 63,
+                            "negative": 5,
+                            "neutral": 33,
+                            "globalPositive": 70,
+                            "globalNegative": -4,
+                            "globalNeutral": 27
+                        },
+                        {
+                            "label": "Talent retention of existing workforce",
+                            "positive": 27,
+                            "negative": 23,
+                            "neutral": 50,
+                            "globalPositive": 44,
+                            "globalNegative": -19,
+                            "globalNeutral": 37
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "dei-actions",
+            "title": "DEI Actions",
+            "subSections": [
+                {
+                    "id": "12. DEI",
+                    "title": "",
+                    "subTitle": "Share of employers surveyed planning to implement the diversity, equity and inclusion measure",
+                    "visualModelType": "summary",
+                    "visualModelSubType": "summary-categorized",
+                    "entries": [
+                        {
+                            "title": "Targeted recruitment, retention and progression initiatives",
+                            "primaryPercentage": 57,
+                            "secondaryPercentage": 48,
+                            "secondaryLabel": "Global",
+                            "subtitle": "Targeted recruitment, retention and progression initiatives"
+                        },
+                        {
+                            "title": "Run comprehensive DEI training for managers and staff",
+                            "primaryPercentage": 55,
+                            "secondaryPercentage": 51,
+                            "secondaryLabel": "Global",
+                            "subtitle": "Run comprehensive DEI training for managers and staff"
+                        },
+                        {
+                            "title": "Pay equity reviews and salary audits",
+                            "primaryPercentage": 49,
+                            "secondaryPercentage": 39,
+                            "secondaryLabel": "Global",
+                            "subtitle": "Pay equity reviews and salary audits"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ai-strategy",
+            "title": "AI Strategy",
+            "subSections": [
+                {
+                    "id": "13. AI",
+                    "title": "",
+                    "subTitle": "Share of employers surveyed planning to implement the stated strategy in response to AI's increasing capability and prevalence",
+                    "visualModelType": "summary",
+                    "visualModelSubType": "summary-categorized",
+                    "entries": [
+                        {
+                            "title": "Reskilling and upskilling your existing workforce to better work alongside AI",
+                            "primaryPercentage": 82,
+                            "secondaryPercentage": 77,
+                            "secondaryLabel": "Global",
+                            "subtitle": "Reskilling and upskilling your existing workforce to better work alongside AI"
+                        },
+                        {
+                            "title": "Hiring new people with skills to design AI tools and enhancements appropriate for the organization-specific skills",
+                            "primaryPercentage": 76,
+                            "secondaryPercentage": 69,
+                            "secondaryLabel": "Global",
+                            "subtitle": "Hiring new people with skills to design AI tools and enhancements appropriate for the organization-specific skills"
+                        },
+                        {
+                            "title": "Hiring new people with skills to better work alongside AI",
+                            "primaryPercentage": 70,
+                            "secondaryPercentage": 62,
+                            "secondaryLabel": "Global",
+                            "subtitle": "Hiring new people with skills to better work alongside AI"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
